@@ -24,6 +24,7 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 ![image](https://user-images.githubusercontent.com/103209100/162338896-a98c3454-ad03-4f1c-a6e5-04dd922807f5.png)
 
 ## Trying Some Commands
+1. Here is some Commands for testing.
 
 ## Moving Files with scp
 
