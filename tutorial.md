@@ -13,7 +13,7 @@
 3. Then, Going to the VsCode and  open a terminal in VSCode (Ctrl + `, or use the Terminal → New
 Terminal menu option). Your command will look like this, but with the **zz** replaced by the
 letters in your course-specific account.
-4. enter the command in your VScode : $ ssh cs15lsp22zz@ieng6.ucsd.edu
+4. enter the command in your VScode : '$ ssh cs15lsp22zz@ieng6.ucsd.edu'
 5. If you are first time to login, here is the message you will see :
    $ ssh cs15lsp22zz@ieng6.ucsd.edu
 " The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established."
