@@ -25,6 +25,14 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 
 ## Trying Some Commands
 1. Here is some Commands for testing.
+2. Pwd and ls
+3. Pwd is a command that shows the current directory.
+  Here is picture for enter command Pwd :![image](https://user-images.githubusercontent.com/103209100/162340622-b97f840c-7b98-4a67-a6e4-9d337ef958b9.png)
+ 
+4. ls is a command that shows a directory listing.
+  Here is a picture for enter a command ls:
+  ![image](https://user-images.githubusercontent.com/103209100/162340573-e9c208fb-69f4-4e8c-91a1-6a43a4233eee.png)
+
 
 ## Moving Files with scp
 
