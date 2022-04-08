@@ -25,31 +25,31 @@ letters in your course-specific account.
 
 ## Trying Some Commands
 1. Here is some Commands for testing.
-2.  <mark>Pwd <mark> and  <mark>ls <mark>
-3.  <mark>Pwd <mark> is a command that shows the current directory.
+2.  <mark>Pwd </mark>  and  <mark>ls </mark>
+3.  <mark>Pwd </mark> is a command that shows the current directory.
   Here is picture for enter command Pwd :![image](https://user-images.githubusercontent.com/103209100/162340622-b97f840c-7b98-4a67-a6e4-9d337ef958b9.png)
  
-4.  <mark>ls <mark> is a command that shows a directory listing.
-  Here is a picture for enter a command  <mark>ls <mark>:
+4.  <mark>ls </mark> is a command that shows a directory listing.
+  Here is a picture for enter a command  <mark>ls </mark>:
   
  ![image](https://user-images.githubusercontent.com/103209100/162340573-e9c208fb-69f4-4e8c-91a1-6a43a4233eee.png)
 
 
 ## Moving Files with scp
-1. When we want to move file form local computer to remote computer, we have to use command call  <mark>scp <mark>
-2. Make sure we are not login the remote compurter.(If we are in the remote computer, use command  <mark>exit <mark>. 
+1. When we want to move file form local computer to remote computer, we have to use command call  <mark>scp </mark>
+2. Make sure we are not login the remote compurter.(If we are in the remote computer, use command  <mark>exit </mark>. 
 3. Then you will logout it and get the message: `Connection to ieng6<zz>.ucsd.edu closed.`
 4. Enter you command in your VScode terminal : `$ scp <file name> cs15lsp22<zz>@ieng6.ucsd.edu:~/`
-5. Then login your account: `$ ssh cs15lsp22<zz>@ieng6.ucsd.edu` and use  <mark>ls <mark> 
+5. Then login your account: `$ ssh cs15lsp22<zz>@ieng6.ucsd.edu` and use  <mark>ls </mark> 
 6. You can see your uploading file.
    Here am I using WhereAMI.java be the example and you will see the result below:
   ![image](https://user-images.githubusercontent.com/103209100/162341494-100ce076-1d66-4971-b3f3-5d9cad45e8d4.png)
 
 ## Setting an SSH Key
 1. Use `$ ssh cs15lsp22<zz>@ieng6.ucsd.edu` login to remote computer.
-2. Create  <mark>.ssh <mark> in the remote computer.
+2. Create  <mark>.ssh </mark> in the remote computer.
 3. exit the remote computer.
-4. Enter  <mark>ssh-keygen <mark> and some message show below
+4. Enter  <mark>ssh-keygen </mark> and some message show below
 <br /> ` # on client (your computer)`
 <br /> `$ ssh-keygen`
 <br /> `Generating public/private rsa key pair.`
