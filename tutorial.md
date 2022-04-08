@@ -35,6 +35,14 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 
 
 ## Moving Files with scp
+1. When we want to move file form local computer to remote computer, we have to use command call "scp"
+2. Make sure we are not login the remote compurter.(If we are in the remote computer, use command "exit". 
+3. Then you will logout it and get the message: Connection to ieng6.ucsd.edu closed.
+4. Enter you command in your VScode terminal : scp <file name> cs15lsp22<zz>@ieng6.ucsd.edu:~/
+5. Then login your account: ssh cs15lsp22<zz>@ieng6.ucsd.edu and use ls 
+6. You can see your uploading file.
+   Here am I using WhereAMI.java be the example and you will see the result below:
+  ![image](https://user-images.githubusercontent.com/103209100/162341494-100ce076-1d66-4971-b3f3-5d9cad45e8d4.png)
 
 ## Setting an SSH Key
 
