@@ -31,7 +31,8 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
  
 4. ls is a command that shows a directory listing.
   Here is a picture for enter a command ls:
-  ![image](https://user-images.githubusercontent.com/103209100/162340573-e9c208fb-69f4-4e8c-91a1-6a43a4233eee.png)
+  
+ ![image](https://user-images.githubusercontent.com/103209100/162340573-e9c208fb-69f4-4e8c-91a1-6a43a4233eee.png)
 
 
 ## Moving Files with scp
