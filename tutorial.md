@@ -50,12 +50,12 @@ letters in your course-specific account.
 2. Create  <mark>.ssh </mark> in the remote computer.
 3. exit the remote computer.
 4. Enter  <mark>ssh-keygen </mark> and some message show below
-<br /> ` # on client (your computer)`
-<br /> `$ ssh-keygen`
-<br /> `Generating public/private rsa key pair.`
-<br /> `Enter file in which to save the key`
-<br /> `(/Users/<user-name>/.ssh/id_rsa): /Users/<user-name>/.ssh/id_rsa`
- <br />`Enter passphrase (empty for no passphrase):`
+<br /> ` # on client (your computer) `
+<br /> ` $ ssh-keygen `
+<br /> ` Generating public/private rsa key pair. `
+<br /> ` Enter file in which to save the key `
+<br /> ` (/Users/<user-name>/.ssh/id_rsa): /Users/<user-name>/.ssh/id_rsa `
+ <br />` Enter passphrase (empty for no passphrase): `
 5. You can use easy passphrase to replace the password or just enter.
 6. Then enter again for comfirm and there is the message to show : The key's randomart image is:
 <br />`+---[RSA 3072]----+`
