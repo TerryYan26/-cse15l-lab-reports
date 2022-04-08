@@ -45,7 +45,36 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
   ![image](https://user-images.githubusercontent.com/103209100/162341494-100ce076-1d66-4971-b3f3-5d9cad45e8d4.png)
 
 ## Setting an SSH Key
-
+1. Use ssh cs15lsp22<zz>@ieng6.ucsd.edu login to remote computer.
+2. Create .ssh in the remote computer.
+3. exit the remote computer.
+4. Enter ssh-keygen and some message show below
+  # on client (your computer)
+$ ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key
+(/Users/<user-name>/.ssh/id_rsa): /Users/<user-name>/.ssh/id_rsa
+Enter passphrase (empty for no passphrase):
+5. You can use easy passphrase to replace the password or just enter.
+6. Then enter again for comfirm and there is the message to show : The key's randomart image is:
++---[RSA 3072]----+
+| |
+| . . + . |
+| . . B o . |
+| . . B * +.. |
+| o S = *.B. |
+| = = O.*.*+|
+| + * *.BE+|
+| +.+.o |
+| .. |
++----[SHA256]-----+
+7. use $ scp id_rsa.pub cs15lsp22<zz>@ieng6.ucsd.edu:~/.ssh/authorized_keys. Then you will auto login to remote computer.
+  ![image](https://user-images.githubusercontent.com/103209100/162490937-008cd781-b3e7-40f5-b2ef-4cfbdb4c9652.png)
+  
 ## Optimizing Remote Running
+1. $ ssh cs15lsp22zz@ieng6.ucsd.edu, then enter ls to list out the file.
+2. $ javac WhereAmI.java and $ java WhereAmI.
+3. Then the java programe is running in the remote computer.
+  ![image](https://user-images.githubusercontent.com/103209100/162491877-7b2b0d5a-f90f-4ff3-962a-f12c0c5a776a.png)
 
 
