@@ -15,9 +15,9 @@ Terminal menu option). Your command will look like this, but with the **zz** rep
 letters in your course-specific account.
 4. enter the command in your VScode : `$ ssh cs15lsp22zz@ieng6.ucsd.edu`
 5. If you are first time to login, here is the message you will see :
-   `$ ssh cs15lsp22zz@ieng6.ucsd.edu
-" The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established."
-Are you sure you want to continue connecting (yes/no/[fingerprint])?`
+   <br />`$ ssh cs15lsp22zz@ieng6.ucsd.edu`
+<br /> `" The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established."`
+<br /> `Are you sure you want to continue connecting (yes/no/[fingerprint])?`
 6. Type "yes" and enter.
 7. Here is the message you will see:
 
@@ -25,50 +25,50 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?`
 
 ## Trying Some Commands
 1. Here is some Commands for testing.
-2. `Pwd` and `ls`
-3. `Pwd` is a command that shows the current directory.
+2. ==Pwd== and ==ls==
+3. ==Pwd== is a command that shows the current directory.
   Here is picture for enter command Pwd :![image](https://user-images.githubusercontent.com/103209100/162340622-b97f840c-7b98-4a67-a6e4-9d337ef958b9.png)
  
-4. `ls` is a command that shows a directory listing.
-  Here is a picture for enter a command ls:
+4. ==ls== is a command that shows a directory listing.
+  Here is a picture for enter a command ==ls==:
   
  ![image](https://user-images.githubusercontent.com/103209100/162340573-e9c208fb-69f4-4e8c-91a1-6a43a4233eee.png)
 
 
 ## Moving Files with scp
-1. When we want to move file form local computer to remote computer, we have to use command call `scp`
-2. Make sure we are not login the remote compurter.(If we are in the remote computer, use command `exit`. 
+1. When we want to move file form local computer to remote computer, we have to use command call ==scp==
+2. Make sure we are not login the remote compurter.(If we are in the remote computer, use command ==exit==. 
 3. Then you will logout it and get the message: `Connection to ieng6<zz>.ucsd.edu closed.`
-4. Enter you command in your VScode terminal : `scp <file name> cs15lsp22<zz>@ieng6.ucsd.edu:~/`
-5. Then login your account: `$ ssh cs15lsp22<zz>@ieng6.ucsd.edu` and use `ls` 
+4. Enter you command in your VScode terminal : `$ scp <file name> cs15lsp22<zz>@ieng6.ucsd.edu:~/`
+5. Then login your account: `$ ssh cs15lsp22<zz>@ieng6.ucsd.edu` and use ==ls== 
 6. You can see your uploading file.
    Here am I using WhereAMI.java be the example and you will see the result below:
   ![image](https://user-images.githubusercontent.com/103209100/162341494-100ce076-1d66-4971-b3f3-5d9cad45e8d4.png)
 
 ## Setting an SSH Key
 1. Use `$ ssh cs15lsp22<zz>@ieng6.ucsd.edu` login to remote computer.
-2. Create `.ssh` in the remote computer.
+2. Create ==.ssh== in the remote computer.
 3. exit the remote computer.
-4. Enter `ssh-keygen` and some message show below
-` # on client (your computer)
-$ ssh-keygen
-Generating public/private rsa key pair.
-Enter file in which to save the key
-(/Users/<user-name>/.ssh/id_rsa): /Users/<user-name>/.ssh/id_rsa
-Enter passphrase (empty for no passphrase):`
+4. Enter ==ssh-keygen== and some message show below
+<br /> ` # on client (your computer)`
+<br /> `$ ssh-keygen`
+<br /> `Generating public/private rsa key pair.`
+<br /> `Enter file in which to save the key`
+<br /> `(/Users/<user-name>/.ssh/id_rsa): /Users/<user-name>/.ssh/id_rsa`
+ <br />`Enter passphrase (empty for no passphrase):`
 5. You can use easy passphrase to replace the password or just enter.
 6. Then enter again for comfirm and there is the message to show : The key's randomart image is:
-`+---[RSA 3072]----+
-| |
-| . . + . |
-| . . B o . |
-| . . B * +.. |
-| o S = *.B. |
-| = = O.*.*+|
-| + * *.BE+|
-| +.+.o |
-| .. |
-+----[SHA256]-----+`
+<br />`+---[RSA 3072]----+
+<br />`| |`
+<br />`| . . + . |`
+<br />`| . . B o . |`
+<br />`| . . B * +.. |`
+<br />`| o S = *.B. |`
+<br />`| = = O.*.*+|`
+<br />`| + * *.BE+|`
+<br />`| +.+.o |`
+<br />`| .. |`
+<br />`+----[SHA256]-----+`
 7. use `$ scp id_rsa.pub cs15lsp22<zz>@ieng6.ucsd.edu:~/.ssh/authorized_keys`. Then you will auto login to remote computer.
   ![image](https://user-images.githubusercontent.com/103209100/162490937-008cd781-b3e7-40f5-b2ef-4cfbdb4c9652.png)
   
