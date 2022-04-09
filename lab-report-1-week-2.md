@@ -74,8 +74,8 @@ letters in your course-specific account.
   
 ## Optimizing Remote Running
 1. Since we have already upload `WhereAmI.java`.
-2. `$ ssh cs15lsp22zz@ieng6.ucsd.edu`, then enter ls to list out the file.
-3. `$ javac WhereAmI.java` and `$ java WhereAmI`.
+2. `$ ssh cs15lsp22zz@ieng6.ucsd.edu`, then enter <mark>ls</mark> to list out the file.
+3. Enter command`$ javac WhereAmI.java` and `$ java WhereAmI`.
 4. Then the java programe is running in the remote computer.
   <br /> ![image](https://user-images.githubusercontent.com/103209100/162491877-7b2b0d5a-f90f-4ff3-962a-f12c0c5a776a.png)
 
