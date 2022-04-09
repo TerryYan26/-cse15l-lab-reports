@@ -42,7 +42,7 @@ letters in your course-specific account.
 4. Enter you command in your VScode terminal : `$ scp <file name> cs15lsp22<zz>@ieng6.ucsd.edu:~/`
 5. Then login your account: `$ ssh cs15lsp22<zz>@ieng6.ucsd.edu` and use  <mark>ls </mark> 
 6. You can see your uploading file.
-   Here am I using WhereAMI.java be the example and you will see the result below:
+   Here am I using `WhereAMI.java` be the example and you will see the result below:
   ![image](https://user-images.githubusercontent.com/103209100/162341494-100ce076-1d66-4971-b3f3-5d9cad45e8d4.png)
 
 ## Setting an SSH Key
@@ -73,9 +73,10 @@ letters in your course-specific account.
   ![image](https://user-images.githubusercontent.com/103209100/162490937-008cd781-b3e7-40f5-b2ef-4cfbdb4c9652.png)
   
 ## Optimizing Remote Running
-1. `$ ssh cs15lsp22zz@ieng6.ucsd.edu`, then enter ls to list out the file.
-2. `$ javac WhereAmI.java` and `$ java WhereAmI`.
-3. Then the java programe is running in the remote computer.
+1. Since we have already upload `WhereAmI.java`.
+2. `$ ssh cs15lsp22zz@ieng6.ucsd.edu`, then enter ls to list out the file.
+3. `$ javac WhereAmI.java` and `$ java WhereAmI`.
+4. Then the java programe is running in the remote computer.
   <br /> ![image](https://user-images.githubusercontent.com/103209100/162491877-7b2b0d5a-f90f-4ff3-962a-f12c0c5a776a.png)
 
 
