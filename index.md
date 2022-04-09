@@ -1,4 +1,4 @@
 # Lab Report
-* [Lab 1](https://terryyan26.github.io/cse15l-lab-reports/tutorial)
+* [Lab 1](lab-report-1-week-2.md)
 
 
