@@ -7,6 +7,7 @@
   3. Download your platforms version and install it.
   4. When you done for the install. Your VsCode interface like that
   ![image](lab1resource/VScode2.png)
+  
 ## Remotely Connecting
 1. Go to install the OpenSSH. [Click Here](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse) to install OpenSSH
 2. Getting your CSE15L account from:[Here](https://sdacs.ucsd.edu/~icc/index.php).
