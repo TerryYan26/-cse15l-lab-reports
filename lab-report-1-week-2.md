@@ -1,6 +1,6 @@
 # Lab Report
 
-## Installing VScode
+### Installing VScode
   1. Go to google searching "VSCode" or [Click Here](https://code.visualstudio.com/).
   2. Select your platforms(Window , MacOs)
   ![image](lab1resource/VScode1.png)
@@ -8,7 +8,7 @@
   4. When you done for the install. Your VsCode interface like that
   ![image](lab1resource/VScode2.png)
   
-## Remotely Connecting
+### Remotely Connecting
 1. Go to install the OpenSSH. [Click Here](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse) to install OpenSSH
 2. Getting your CSE15L account from:[Here](https://sdacs.ucsd.edu/~icc/index.php).
 3. Then, Going to the VsCode and  open a terminal in VSCode (Ctrl + `, or use the Terminal → New
@@ -24,7 +24,7 @@ letters in your course-specific account.
 
 ![image](lab1resource/RC1.png)
 
-## Trying Some Commands
+### Trying Some Commands
 1. Here is some Commands for testing.
 2.  <mark>Pwd </mark>  and  <mark>ls </mark>
 3.  <mark>Pwd </mark> is a command that shows the current directory.
@@ -36,7 +36,7 @@ letters in your course-specific account.
    ![image](lab1resource/RC2.png)
 
 
-## Moving Files with scp
+### Moving Files with scp
 1. When we want to move file form local computer to remote computer, we have to use command call  <mark>scp </mark>
 2. Make sure we are not login the remote compurter.(If we are in the remote computer, use command  <mark>exit </mark>. 
 3. Then you will logout it and get the message: `Connection to ieng6<zz>.ucsd.edu closed.`
@@ -46,7 +46,7 @@ letters in your course-specific account.
    Here am I using `WhereAMI.java` be the example and you will see the result below:
   ![image](lab1resource/scp.png)
 
-## Setting an SSH Key
+### Setting an SSH Key
 1. Use `$ ssh cs15lsp22<zz>@ieng6.ucsd.edu` login to remote computer.
 2. Create  <mark>.ssh </mark> in the remote computer.
 3. exit the remote computer.
@@ -73,7 +73,7 @@ letters in your course-specific account.
 7. use `$ scp id_rsa.pub cs15lsp22<zz>@ieng6.ucsd.edu:~/.ssh/authorized_keys`. Then you will auto login to remote computer.
   ![image](lab1resource/ssh.png)
   
-## Optimizing Remote Running
+### Optimizing Remote Running
 1. Since we have already upload `WhereAmI.java`.
 2. `$ ssh cs15lsp22zz@ieng6.ucsd.edu`, then enter <mark>ls</mark> to list out the file.
 3. Enter command`$ javac WhereAmI.java` and `$ java WhereAmI`.
