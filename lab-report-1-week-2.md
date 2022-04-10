@@ -3,10 +3,10 @@
 ## Installing VScode
   1. Go to google searching "VSCode" or [Click Here](https://code.visualstudio.com/).
   2. Select your platforms(Window , MacOs)
-  ![image](https://user-images.githubusercontent.com/103209100/162337138-daccb456-a0b8-4fee-9f4e-355e48a21239.png)
+  ![image](lab1resource/VScode1.png)
   3. Download your platforms version and install it.
   4. When you done for the install. Your VsCode interface like that
-  ![image](https://user-images.githubusercontent.com/103209100/162337349-4fd9422e-30b4-4856-b9dc-6ee493b3f346.png)
+  ![image](lab1resource/VScode2.png)
 ## Remotely Connecting
 1. Go to install the OpenSSH. [Click Here](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse) to install OpenSSH
 2. Getting your CSE15L account from:[Here](https://sdacs.ucsd.edu/~icc/index.php).
@@ -21,18 +21,18 @@ letters in your course-specific account.
 6. Type "yes" and enter.
 7. Here is the message you will see:
 
-![image](https://user-images.githubusercontent.com/103209100/162338896-a98c3454-ad03-4f1c-a6e5-04dd922807f5.png)
+![image](lab1resource/RC1.png)
 
 ## Trying Some Commands
 1. Here is some Commands for testing.
 2.  <mark>Pwd </mark>  and  <mark>ls </mark>
 3.  <mark>Pwd </mark> is a command that shows the current directory.
-  Here is picture for enter command Pwd :![image](https://user-images.githubusercontent.com/103209100/162340622-b97f840c-7b98-4a67-a6e4-9d337ef958b9.png)
+  Here is picture for enter command Pwd :![image](lab1resource/TSC1.png)
  
 4.  <mark>ls </mark> is a command that shows a directory listing.
   Here is a picture for enter a command  <mark>ls </mark>:
   
- ![image](https://user-images.githubusercontent.com/103209100/162340573-e9c208fb-69f4-4e8c-91a1-6a43a4233eee.png)
+   ![image](lab1resource/RC2.png)
 
 
 ## Moving Files with scp
@@ -43,7 +43,7 @@ letters in your course-specific account.
 5. Then login your account: `$ ssh cs15lsp22<zz>@ieng6.ucsd.edu` and use  <mark>ls </mark> 
 6. You can see your uploading file.
    Here am I using `WhereAMI.java` be the example and you will see the result below:
-  ![image](https://user-images.githubusercontent.com/103209100/162341494-100ce076-1d66-4971-b3f3-5d9cad45e8d4.png)
+  ![image](lab1resource/scp.png)
 
 ## Setting an SSH Key
 1. Use `$ ssh cs15lsp22<zz>@ieng6.ucsd.edu` login to remote computer.
@@ -70,13 +70,13 @@ letters in your course-specific account.
 <br />`|              .. |`
 <br />`+----[SHA256]-----+`
 7. use `$ scp id_rsa.pub cs15lsp22<zz>@ieng6.ucsd.edu:~/.ssh/authorized_keys`. Then you will auto login to remote computer.
-  ![image](https://user-images.githubusercontent.com/103209100/162490937-008cd781-b3e7-40f5-b2ef-4cfbdb4c9652.png)
+  ![image](lab1resource/ssh.png)
   
 ## Optimizing Remote Running
 1. Since we have already upload `WhereAmI.java`.
 2. `$ ssh cs15lsp22zz@ieng6.ucsd.edu`, then enter <mark>ls</mark> to list out the file.
 3. Enter command`$ javac WhereAmI.java` and `$ java WhereAmI`.
 4. Then the java programe is running in the remote computer.
-  <br /> ![image](https://user-images.githubusercontent.com/103209100/162491877-7b2b0d5a-f90f-4ff3-962a-f12c0c5a776a.png)
+  <br /> ![image](lab1resource/RR.png)
 
 
