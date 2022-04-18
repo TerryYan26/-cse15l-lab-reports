@@ -81,5 +81,6 @@ letters in your course-specific account.
   <br /> ![image](lab1resource/RR.png)
 5.We want to optimize  remote running and we can use `;` to run multiple commands in one time. Using `"` to ending to command.
 6. There is the example for use local edit a java and copying and running `WhereAmI.java` on remote computer.
-![image](lab1resource/last example.png)
+![image](https://user-images.githubusercontent.com/103209100/163878019-71d61f15-121d-4e3c-8554-03a9b50bd1e5.png)
+
 
