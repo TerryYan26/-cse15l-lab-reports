@@ -79,5 +79,7 @@ letters in your course-specific account.
 3. Enter command`$ javac WhereAmI.java` and `$ java WhereAmI`.
 4. Then the java programe is running in the remote computer.
   <br /> ![image](lab1resource/RR.png)
-
+5.We want to optimize  remote running and we can use `;` to run multiple commands in one time. Using `"` to ending to command.
+6. There is the example for use local edit a java and copying and running `WhereAmI.java` on remote computer.
+7.
 
