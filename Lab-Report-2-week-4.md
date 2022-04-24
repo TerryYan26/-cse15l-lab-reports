@@ -49,4 +49,4 @@ Exception in thread "main" java.lang.StringIndexOutOfBoundsException: begin 0, e
 screenshot of the code change different:
 ![image3](lab2/testing3.png)
 
-
+The bug that when markdown has any links and it will start starting index is -1. it will cause an index exception. Causing IndexOutOfBoundsException as a symptom.
