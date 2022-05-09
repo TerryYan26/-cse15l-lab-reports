@@ -30,3 +30,12 @@ Host ieng6
 - When we need to copy a full file to the remote. we can use a command `scp -r`. Here is the screenshot:
 ![image](lab3/2.0.PNG)
 ![image](lab3/2.1.PNG)
+- Here is the file to uploaded in the remote:
+![image](lab3/2.2.PNG)
+- And we are running a Junit test in the remote: 
+![image](lab3/2.3.PNG)
+Also combining command in one of command will like that:
+```
+scp -r . cs15lsp22atz@ieng6.ucsd.edu:~/markdown-parse; ssh cs15lsp22atz@ieng6.ucsd.edu cd markdown-parse; javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java; java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest
+```
+
