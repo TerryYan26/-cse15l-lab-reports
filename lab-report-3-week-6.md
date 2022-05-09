@@ -22,3 +22,11 @@ Host ieng6
 ![image](lab3/1.5.PNG)
 -Also, we should save a private key(id_rsa) and public key(id_rsa.pub) in our computer and here is the directory:
 ![image](lab3/1.6.PNG)
+- Here is the meassage when we push the file:
+![image](lab3/1.8.PNG)
+- Here is the [commit](https://github.com/TerryYan26/cse15l-lab-reports/commit/6b0ef5eda64c0b3179733a49f61842560127c47f)
+
+## Copy whole directories with `scp -r`
+- When we need to copy a full file to the remote. we can use a command `scp -r`. Here is the screenshot:
+![image](lab3/2.0.PNG)
+![image](lab3/2.1.PNG)
