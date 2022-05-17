@@ -20,8 +20,8 @@ Host ieng6
  ![image](lab3/1.4.PNG)
 - We get the public key and we go to github setting and select SSH and GPG keys, click New SSH key and paste your pulbic key in side:
 ![image](lab3/1.5.PNG)
--Also, we should save a private key(id_rsa) and public key(id_rsa.pub) in our computer and here is the directory:
-![image](lab3/1.6.PNG)
+-Also, we should save a private key(id_rsa) and public key(id_rsa.pub) in remote computer and here is the directory:
+![image](lab3/2.5.PNG)
 - Here is the meassage when we push the file:
 ![image](lab3/1.8.PNG)
 - Here is the [commit](https://github.com/TerryYan26/cse15l-lab-reports/commit/6b0ef5eda64c0b3179733a49f61842560127c47f)
@@ -34,8 +34,6 @@ Host ieng6
 ![image](lab3/2.2.PNG)
 - And we are running a Junit test in the remote: 
 ![image](lab3/2.3.PNG)
-Also combining command in one of command will like that:
-```
-scp -r . cs15lsp22atz@ieng6.ucsd.edu:~/markdown-parse; ssh cs15lsp22atz@ieng6.ucsd.edu cd markdown-parse; javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java; java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest
-```
+Here we use the Multiple commands and put it together to testing a file:
+![image](lab3/2.6.PNG)
 
