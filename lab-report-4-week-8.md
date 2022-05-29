@@ -83,8 +83,10 @@ Test result: Failures
  ![snippet1.1](Lab4/3.3.PNG)
  
 ### Question response Snippet 1 :
+ Do you think there is a small (<10 lines) code change that will make your program work for snippet 1 and all related cases that use inline code with backticks? If yes, describe the code change. If not, describe why it would be a more involved change.
  
-Yes, It can be a small (<10 lines) code change.We may use if statement to check when the first character is equal to the open backticks. It will print out that. Otherwise, it will not print.
+I think it would be possible to make it in small (<10 lines) by Skipping the backtick text within brackets and ignore brackets within backticks. It may use indexOf method to identify next backtick and check is it between brackets. 
+
 
 
 # Snippet 2
@@ -150,9 +152,9 @@ Test result: Failures
  ![snippet1](Lab4/3.6.PNG)
  
 ### Question response Snippet 2 :
+ Do you think there is a small (<10 lines) code change that will make your program work for snippet 2 and all related cases that nest parentheses, brackets, and escaped brackets? If yes, describe the code change. If not, describe why it would be a more involved change.
  
- It seems like bigger than 10 lines. If we want to solve snippet2, we may use stack and create the stack structure. we have to trace the '(' and pop the data after ')'. It may fix that bug.
-
+ It seems like bigger than 10 lines. If we want to solve snippet 2, we may use stack and create the stack structure. we have to trace opening and closing brackets and using Push and Pop to catch the URLs.
 
 # Snippet 3
 
@@ -236,7 +238,7 @@ links7 = new ArrayList<String>();
  ![snippet1](Lab4/3.9.PNG)
  
 ### Question response Snippet 3 :
+Do you think there is a small (<10 lines) code change that will make your program work for snippet 3 and all related cases that have newlines in brackets and parentheses? If yes, describe the code change. If not, describe why it would be a more involved change. 
  
- 
- It seems like bigger than 10 lines. the case seem like we have to set up one if statement to stop the line break, second we have to trace '(' and ')'. Third we have to check that the URL can not exist space in the beginning.
+ It seems like small than 10 lines. The case more the 2 characters between set of parentheses or brackets, then ignore the currIndex down to after the close parentheses. 
  
