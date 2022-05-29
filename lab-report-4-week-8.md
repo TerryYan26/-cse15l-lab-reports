@@ -68,6 +68,8 @@ links5 = new ArrayList<String>();
     
  ### Question response Snippet1
  Yes, It can be a small (<10 lines) code change.We may use if statement to check when the first character is equal to the open backticks.  it will print out that. Otherwise, it will not print.
+ 
+ 
  ### Snippet 2
 
 ```
@@ -131,6 +133,8 @@ links6 = new ArrayList<String>();
  
  ### Question response Snippet2
  It seems like bigger than 10 lines. If we want to solve snippet2, we may use stack and create the stack structure. we have to trace the '(' and pop the data after ')'. It may fix that bug.
+ 
+ 
   ### Snippet 3
 
 ```
