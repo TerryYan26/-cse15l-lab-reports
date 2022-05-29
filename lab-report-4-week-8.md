@@ -82,4 +82,5 @@ Test result: Failures
  ![snippet1](Lab4/3.3.PNG)
     
  ### Question response Snippet 1:
-  Yes, It can be a small (<10 lines) code change.We may use if statement to check when the first character is equal to the open backticks.  it will print out that. Otherwise, it will not print.
+ 
+Yes, It can be a small (<10 lines) code change.We may use if statement to check when the first character is equal to the open backticks.  it will print out that. Otherwise, it will not print.
