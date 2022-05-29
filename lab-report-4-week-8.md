@@ -87,7 +87,7 @@ Test result: Failures
 Yes, It can be a small (<10 lines) code change.We may use if statement to check when the first character is equal to the open backticks. It will print out that. Otherwise, it will not print.
 
 
- # Snippet 2
+# Snippet 2
 
 ```
 [a [nested link](a.com)](b.com)
