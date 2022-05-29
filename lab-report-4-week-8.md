@@ -108,19 +108,19 @@ We have to set up a test in Junit:
 
 ## Our test: 
 
-1. Setting up a variable:
+Setting up a variable:
 ```
  private Path fileName6;
  private String content6;
  private ArrayList<String> links6;
  ```
- 2. Writting a structures for the test in `public void setUp() throws IOException:`
+Writting a structures for the test in `public void setUp() throws IOException:`
 ```
 fileName6 = Path.of("Snippet2.md");
 content6 = Files.readString(fileName6);
 links6 = new ArrayList<String>();
 ```
-3. Setting up a test:
+Setting up a test:
 
 ```
 
@@ -133,13 +133,12 @@ links6 = new ArrayList<String>();
         assertEquals(links6, MarkdownParse.getLinks(content6));
         
   ```
-4. Test result: Failures
+Test result: Failures
 ![snippet1](Lab4/3.5.PNG)
 
   ## Reviewed test:
   
-  
-  1. adding a test:
+Adding a test:
  ```
   @Test
     public void testfile10(){
@@ -147,9 +146,9 @@ links6 = new ArrayList<String>();
     }
     
  ```
- 2. Test result: Failures
+Test result: Failures
  ![snippet1](Lab4/3.6.PNG)
  
- ### Question response Snippet2
+ ### Question response Snippet 21:
  
  It seems like bigger than 10 lines. If we want to solve snippet2, we may use stack and create the stack structure. we have to trace the '(' and pop the data after ')'. It may fix that bug.
