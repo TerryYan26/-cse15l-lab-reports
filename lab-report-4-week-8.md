@@ -1,5 +1,7 @@
 # Lab Report 4 - Week 8
 ### Two markdown-parser
+
+
 [Our markdown-parser](https://github.com/TerryYan26/markdown-parser.git)
 
 [Reviewed markdown-parse](https://github.com/rmccrystal/markdown-parser.git)
@@ -25,6 +27,7 @@ The markdown-parse should be output:
 We have to set up a test in Junit:
 
 ## Our test: 
+
 
 1. Setting up a variable:
 ```
@@ -55,6 +58,8 @@ links5 = new ArrayList<String>();
 ![snippet1](Lab4/3.2.PNG)
 
   ## Reviewed test:
+  
+  
   1. adding a test:
  ```
   @Test
@@ -67,6 +72,8 @@ links5 = new ArrayList<String>();
  ![snippet1](Lab4/3.3.PNG)
     
  ### Question response Snippet1
+ 
+ 
  Yes, It can be a small (<10 lines) code change.We may use if statement to check when the first character is equal to the open backticks.  it will print out that. Otherwise, it will not print.
  
  
@@ -120,6 +127,8 @@ links6 = new ArrayList<String>();
 ![snippet1](Lab4/3.5.PNG)
 
   ## Reviewed test:
+  
+  
   1. adding a test:
  ```
   @Test
@@ -132,6 +141,7 @@ links6 = new ArrayList<String>();
  ![snippet1](Lab4/3.6.PNG)
  
  ### Question response Snippet2
+ 
  It seems like bigger than 10 lines. If we want to solve snippet2, we may use stack and create the stack structure. we have to trace the '(' and pop the data after ')'. It may fix that bug.
  
  
@@ -203,6 +213,8 @@ links7 = new ArrayList<String>();
 ![snippet1](Lab4/3.8.PNG)
 
   ## Reviewed test:
+  
+  
   1. adding a test:
  ```
   @Test
@@ -215,5 +227,7 @@ links7 = new ArrayList<String>();
  ![snippet1](Lab4/3.9.PNG)
  
  ### Question response Snippet3
+ 
+ 
  It seems like bigger than 10 lines. the case seem like we have to set up one if statement to stop the line break, second we have to trace '(' and ')'. Third we have to check that the URL can not exist space in the beginning.
  
