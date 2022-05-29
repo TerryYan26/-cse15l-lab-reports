@@ -36,7 +36,7 @@ We have to set up a test in Junit:
  private String content5;
  private ArrayList<String> links5;
  ```
- 2. Writting a structures for the test in `public void setUp() throws IOException:`
+2. Writting a structures for the test in `public void setUp() throws IOException:`
 ```
 fileName5 = Path.of("Snippet1.md");
 content5 = Files.readString(fileName5);
@@ -61,10 +61,10 @@ links5 = new ArrayList<String>();
 4. Test result: Failures
 ![snippet1](Lab4/3.2.PNG)
 
-  ## Reviewed test:
+## Reviewed test:
   
   
-  1. adding a test:
+ Adding a test:
  ```
   @Test
     public void testfile9(){
@@ -72,8 +72,8 @@ links5 = new ArrayList<String>();
     }
     
  ```
- 2. Test result: Failures
+ Test result: Failures
  ![snippet1](Lab4/3.3.PNG)
     
  ### Question response Snippet 1:
-Yes, It can be a small (<10 lines) code change.We may use if statement to check when the first character is equal to the open backticks.  it will print out that. Otherwise, it will not print.
+  Yes, It can be a small (<10 lines) code change.We may use if statement to check when the first character is equal to the open backticks.  it will print out that. Otherwise, it will not print.
