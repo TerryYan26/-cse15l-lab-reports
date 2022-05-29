@@ -30,20 +30,25 @@ We have to set up a test in Junit:
 ### Our test: 
 
 
-1. Setting up a variable:
+Setting up a variable:
+
 ```
  private Path fileName5;
  private String content5;
  private ArrayList<String> links5;
+ 
  ```
-2. Writting a structures for the test in `public void setUp() throws IOException:`
+ 
+Writting a structures for the test in `public void setUp() throws IOException:`
+
 ```
 fileName5 = Path.of("Snippet1.md");
 content5 = Files.readString(fileName5);
 links5 = new ArrayList<String>();
+
 ```
 
-3. Setting up a test:
+Setting up a test:
 
 ```
 
@@ -58,10 +63,11 @@ links5 = new ArrayList<String>();
   ```
   
   
-4. Test result: Failures
+Test result: Failures
+
 ![snippet1](Lab4/3.2.PNG)
 
-## Reviewed test:
+### Reviewed test:
   
   
  Adding a test:
