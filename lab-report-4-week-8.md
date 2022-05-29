@@ -149,6 +149,6 @@ Adding a test:
 Test result: Failures
  ![snippet1](Lab4/3.6.PNG)
  
- ### Question response Snippet 21:
+### Question response Snippet 2 :
  
  It seems like bigger than 10 lines. If we want to solve snippet2, we may use stack and create the stack structure. we have to trace the '(' and pop the data after ')'. It may fix that bug.
