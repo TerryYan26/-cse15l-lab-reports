@@ -1,12 +1,12 @@
 # Lab Report 4 - Week 8
-### Two markdown-parser
+# Two markdown-parser
 
 
 [Our markdown-parser](https://github.com/TerryYan26/markdown-parser.git)
 
 [Reviewed markdown-parse](https://github.com/rmccrystal/markdown-parser.git)
 
-### Snippet 1
+# Snippet 1
 
 ```
 `[a link`](url.com)
@@ -26,7 +26,7 @@ The markdown-parse should be output:
 ```
 We have to set up a test in Junit:
 
-## Our test: 
+### Our test: 
 
 
 1. Setting up a variable:
@@ -41,6 +41,7 @@ fileName5 = Path.of("Snippet1.md");
 content5 = Files.readString(fileName5);
 links5 = new ArrayList<String>();
 ```
+
 3. Setting up a test:
 
 ```
@@ -54,6 +55,8 @@ links5 = new ArrayList<String>();
         assertEquals(links5, MarkdownParse.getLinks(content5));
         
   ```
+  
+  
 4. Test result: Failures
 ![snippet1](Lab4/3.2.PNG)
 
@@ -77,7 +80,7 @@ links5 = new ArrayList<String>();
  Yes, It can be a small (<10 lines) code change.We may use if statement to check when the first character is equal to the open backticks.  it will print out that. Otherwise, it will not print.
  
  
- ### Snippet 2
+ # Snippet 2
 
 ```
 [a [nested link](a.com)](b.com)
@@ -145,7 +148,7 @@ links6 = new ArrayList<String>();
  It seems like bigger than 10 lines. If we want to solve snippet2, we may use stack and create the stack structure. we have to trace the '(' and pop the data after ')'. It may fix that bug.
  
  
-  ### Snippet 3
+# Snippet 3
 
 ```
 [this title text is really long and takes up more than 
@@ -212,7 +215,7 @@ links7 = new ArrayList<String>();
 4. Test result: Failures
 ![snippet1](Lab4/3.8.PNG)
 
-  ## Reviewed test:
+## Reviewed test:
   
   
   1. adding a test:
