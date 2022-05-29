@@ -152,3 +152,91 @@ Test result: Failures
 ### Question response Snippet 2 :
  
  It seems like bigger than 10 lines. If we want to solve snippet2, we may use stack and create the stack structure. we have to trace the '(' and pop the data after ')'. It may fix that bug.
+
+
+# Snippet 3
+
+```
+[this title text is really long and takes up more than 
+one line
+
+and has some line breaks](
+    https://www.twitter.com
+)
+
+[this title text is really long and takes up more than 
+one line](
+https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule
+)
+
+
+[this link doesn't have a closing parenthesis](github.com
+
+And there's still some more text after that.
+
+[this link doesn't have a closing parenthesis for a while](https://cse.ucsd.edu/
+
+
+
+)
+
+And then there's more text
+
+```
+
+Here is the  the CommonMark demo site produce:
+![snippet2](Lab4/3.7.PNG)
+The markdown-parse should be output:
+``` 
+[https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule]
+```
+We have to set up a test in Junit:
+
+## Our test: 
+
+1. Setting up a variable:
+```
+ private Path fileName7;
+ private String content7;
+ private ArrayList<String> links7;
+ ```
+ 2. Writting a structures for the test in `public void setUp() throws IOException:`
+```
+fileName7 = Path.of("Snippet3.md");
+content7 = Files.readString(fileName7);
+links7 = new ArrayList<String>();
+```
+3. Setting up a test:
+
+```
+
+  @Test
+    public void testTestFile7() {
+        links7.add("https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule");
+       
+       
+        assertEquals(links7, MarkdownParse.getLinks(content7));
+        
+  ```
+4. Test result: Failures
+![snippet1](Lab4/3.8.PNG)
+
+## Reviewed test:
+  
+  
+  1. adding a test:
+ ```
+  @Test
+    public void testfile11(){
+        assertMarkdown(Path.of("Snippet3.md"), List.of("https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule");
+    }
+    
+ ```
+ 2. Test result: Failures
+ ![snippet1](Lab4/3.9.PNG)
+ 
+### Question response Snippet 3 :
+ 
+ 
+ It seems like bigger than 10 lines. the case seem like we have to set up one if statement to stop the line break, second we have to trace '(' and ')'. Third we have to check that the URL can not exist space in the beginning.
+ 
