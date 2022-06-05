@@ -8,10 +8,15 @@ vimdiff /home/linux/ieng6/cs15lsp22/cs15lsp22atz/test-file/markdown-parser/resul
 
 ```
 
-Here is some of the example when we are execute the `vimdiff` command:
+Here is some of the example when we are execute the `vimdiff` command(left is provided, right is own):
 
 ![Image](lab5/3.1.PNG)
-![Image](lab5/3.2.PNG)
 
-You can see that here is the different to show red color: `193.md`, `200.md`, `219.md`, `319.md`.
+
+You can see that here is the different to show red color: `193.md`, `200.md`.
 We search through manually but it also can be auto this process such as add a command in the `script.sh`.
+
+
+## 193.md
+
+[the CommonMark demo site](https://spec.commonmark.org/dingus/) to show that the correct answer is url, so the provided is correct.
