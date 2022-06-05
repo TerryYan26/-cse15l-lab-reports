@@ -13,10 +13,21 @@ Here is some of the example when we are execute the `vimdiff` command(left is pr
 ![Image](lab5/3.1.PNG)
 
 
-You can see that here is the different to show red color: `193.md`, `200.md`.
+You can see that here is the different to show red color: `194.md`, `201.md`.
 We search through manually but it also can be auto this process such as add a command in the `script.sh`.
 
+## 194.md
+[the CommonMark demo site](https://spec.commonmark.org/dingus/) to show that the correct answer is url, so provided is correct.
+The reason of my own  `MarkdownParse.java` is ` ` because it has some wrong code:
+![Image](lab5/3.4.PNG)
+Since it doesn't pass any if statment so it only return back toReturn.
+So it may add some method like:
+![Image](lab5/4.PNG)
+it may fix this bug.
 
-## 193.md
+## 201.md
 
-[the CommonMark demo site](https://spec.commonmark.org/dingus/) to show that the correct answer is url, so the provided is correct.
+[the CommonMark demo site](https://spec.commonmark.org/dingus/) to show that the correct answer is [], so my own is correct.
+The reason of provided `MarkdownParse.java` is `baz` because it has some wrong code:
+![Image](lab5/3.3.PNG)
+Since `indexOf(" ") == -1` and it still have a space exist after the begining so the code isn't run and cause the problem.
